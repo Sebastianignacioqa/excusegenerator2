@@ -6,7 +6,7 @@ window.onload = () => {
   //write your code here
 
   var generarExcusa = () => {
-    var pronombre = ["El", "Mi", "Un", "Ese"];
+    var pronombre = ["El", "Mi", "Un", "Ese", "Este"];
     var sujeto = [
       "mimo",
       "perro",
@@ -16,7 +16,15 @@ window.onload = () => {
       "cantinero",
       "chef"
     ];
-    var verbo = ["tiro", "sacudio", "mojo", "mordio", "arreglo", "quemo"];
+    var verbo = [
+      "tiro",
+      "sacudio",
+      "mojo",
+      "mordio",
+      "arreglo",
+      "quemo",
+      "rompio"
+    ];
     var cosa = [
       "mi tarea",
       "mi comida",
@@ -32,7 +40,8 @@ window.onload = () => {
       "antes de ayer",
       "esta semana",
       "el mes pasado",
-      "la semana pasada"
+      "la semana pasada",
+      "hace un rato"
     ];
     var ipronombre = Math.floor(Math.random() * 4);
     var isujeto = Math.floor(Math.random() * sujeto.length);
